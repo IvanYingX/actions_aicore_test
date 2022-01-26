@@ -39,4 +39,4 @@ class AnimalReporter:
 
 ani = input('Enter an animal: ')
 ar = AnimalReporter(ani)
-print(ar.get_class())
+print(f'{ani} belongs to the {ar.get_class()} class.')
